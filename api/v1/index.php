@@ -1,10 +1,10 @@
  <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-include '../../../incorporate/db_connect.php';
-include '../../../incorporate/functions.php';
-include '../../../incorporate/queryintojson.php';
-include '../../../incorporate/json-file-decode.class.php';
+include '../../incorporate/db_connect.php';
+include '../../incorporate/functions.php';
+include '../../incorporate/queryintojson.php';
+include '../../incorporate/json-file-decode.class.php';
 include '../Mandrill.php';
 
 date_default_timezone_set('America/Mexico_City');

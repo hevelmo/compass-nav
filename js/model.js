@@ -1,20 +1,7 @@
-/*
-    Here are functions and methods that are models whose performance is used in all the project
-    to invoke some of this models it's necessary to call with the prefix, and then te name of the
-    model and its arguments, for example PRO.momentToHuman(date, language);
-    Each method has a large explanation.
-
-    NOTE: the prefix PRO will change depends on the specific project.
-
-    For the correct performance of almost all of the methods
-    it's necesary to includ JQuery library
- **/
-
-
 //[Models] Modelos
-var PRO = {};
+var COM = {};
 
-PRO = (function() {
+COM = (function() {
     var $this = this;
     /*
      ###################################################################################################

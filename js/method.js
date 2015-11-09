@@ -68,9 +68,9 @@
     var demoMethods = {
         changeLan : function (event) {
             var lan, date, newDate;
-            lan = PRO.getValue($(this));
+            lan = COM.getValue($(this));
             date = $(domEl.h3_demo_date).data('date');
-            newDate = PRO.momentToRoman(date, lan);
+            newDate = COM.momentToRoman(date, lan);
             $(domEl.h3_demo_date).text(newDate);
         }
     }
